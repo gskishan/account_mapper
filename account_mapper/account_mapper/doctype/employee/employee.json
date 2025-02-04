@@ -72,8 +72,9 @@
   },
   {
    "fieldname": "reporting_manager",
-   "fieldtype": "Data",
+   "fieldtype": "Link",
    "label": "Reporting Manager",
+   "options": "Employee",
    "reqd": 1
   },
   {
