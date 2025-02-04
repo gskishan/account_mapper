@@ -1,0 +1,55 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-02-04 18:24:23.735668",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "product",
+  "client_section",
+  "client"
+ ],
+ "fields": [
+  {
+   "fieldname": "product",
+   "fieldtype": "Link",
+   "label": "Product",
+   "options": "Product Details"
+  },
+  {
+   "fieldname": "client_section",
+   "fieldtype": "Section Break",
+   "label": "Client"
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Table",
+   "label": "Client",
+   "options": "Project Details"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-02-04 18:25:29.880039",
+ "modified_by": "Administrator",
+ "module": "Account Mapper",
+ "name": "Account Mapping",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

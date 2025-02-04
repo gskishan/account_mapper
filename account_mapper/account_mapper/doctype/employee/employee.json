@@ -1,0 +1,113 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:employee_id",
+ "creation": "2025-02-04 18:00:07.368839",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "employee_id",
+  "sub_department",
+  "designation",
+  "column_break_ycnx",
+  "employee_full_name",
+  "employee_type",
+  "location",
+  "column_break_zlgf",
+  "department",
+  "e_mail_id",
+  "reporting_manager"
+ ],
+ "fields": [
+  {
+   "fieldname": "employee_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Employee Id",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "employee_full_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Employee Full Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Data",
+   "label": "Department"
+  },
+  {
+   "fieldname": "sub_department",
+   "fieldtype": "Data",
+   "label": "Sub Department"
+  },
+  {
+   "fieldname": "employee_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Employee Type",
+   "options": "\nSI partner\nConsultant\nOn Role",
+   "reqd": 1
+  },
+  {
+   "fieldname": "e_mail_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "E Mail Id",
+   "reqd": 1
+  },
+  {
+   "fieldname": "designation",
+   "fieldtype": "Data",
+   "label": "Designation"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "label": "Location",
+   "reqd": 1
+  },
+  {
+   "fieldname": "reporting_manager",
+   "fieldtype": "Data",
+   "label": "Reporting Manager",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_ycnx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_zlgf",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-02-04 19:04:14.871177",
+ "modified_by": "Administrator",
+ "module": "Account Mapper",
+ "name": "Employee",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

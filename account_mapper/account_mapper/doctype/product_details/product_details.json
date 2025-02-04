@@ -1,0 +1,84 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:product_name",
+ "creation": "2025-02-04 18:04:32.858132",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "product_name",
+  "product_category",
+  "product_wing",
+  "column_break_wqpu",
+  "product_description",
+  "section_break_mgps",
+  "client"
+ ],
+ "fields": [
+  {
+   "fieldname": "product_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Product Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "product_category",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Product Category",
+   "reqd": 1
+  },
+  {
+   "fieldname": "product_wing",
+   "fieldtype": "Data",
+   "label": "Product Wing",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_wqpu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "product_description",
+   "fieldtype": "Small Text",
+   "label": "Product Description"
+  },
+  {
+   "fieldname": "section_break_mgps",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Table",
+   "label": "Client",
+   "options": "Project Details"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-02-04 18:22:16.044970",
+ "modified_by": "Administrator",
+ "module": "Account Mapper",
+ "name": "Product Details",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
